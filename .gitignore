@@ -1,0 +1,30 @@
+# STM32CubeIDE build output
+Debug/
+Release/
+build/
+*.o
+*.d
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+*.su
+
+# STM32CubeIDE workspace/project metadata (keep .project/.cproject if you want the whole IDE setup shareable — otherwise ignore too)
+.metadata/
+.settings/
+.launches/
+*.launch~
+
+# STM32CubeMX generated backup files
+*.ioc.bak
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
+
+# Editor/IDE clutter
+*.swp
+*~
+.vscode/
